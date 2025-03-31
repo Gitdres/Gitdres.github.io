@@ -3,7 +3,15 @@ layout: default
 title: "San Francisco Crime Magazine"
 ---
 
-<h1>Assignment 2</h1>
+<h1>Group members</h1>
+
+ <p>
+  Andrés Ísak Hlynsson (s242978)
+  Þorvaldur Lúðvíksson (s242975)
+
+  </p>
+
+
 
 
 <section>
@@ -21,22 +29,33 @@ title: "San Francisco Crime Magazine"
 </section>
 
 <section>
-  <h2>San Francisco Crime in Action</h2>
+  <h2>Bar charts for crime rate within various San Francisco neighborhoods</h2>
+  <p> The first data visualization is fairly straightforward but it contains a bar chart for the amount of crimes that have taken place between 2004-2024 for ten different neighborhoods within the San Francisco area. The first observation that the group made when looking through these charts was that the amount of crime that took place was considerably lower for 2024 compared to 2004 for all of the neighborhoods except for Tenderloin (and Central). This particular neighborhood in SF is actually quite notorious for the illegal activities that seem to be taking place there, infact one of the first search results on google for "San Francisco Tenderloin" is a one hour youtube video titled "How terrifying is it to walk San Francisco's Tenderloin District?". According to Wikipedia the area has particularly high instances for violent street crimes such as robbery and assault, car theft happens on a regular basis and street dealing and use of illicit drugs is apperently a common occurance. When looking through the bar chart for Central we can also notice that the difference in the amount of crime that occurs for 2004 compared to 2024 is not that great. The amount of crime is also significantly lower for the year 2020 compared to other years for Central but the reason for that is mainly thought to be the Covid-19 pandemic, given that the area had to be shut down during that time. (see source: https://www.sf.gov/news--san-franciscos-public-safety-efforts-deliver-results-decline-crime-rates?)  </p>
 
   <div style="margin-bottom: 2em;">
-    <h3>Crime Scene in Mission District</h3>
+    <h3>San Francisco crime rate for the years 2004-2024</h3>
     <img src="images/crimes_per_district_by_year.png" alt="Mission District crime scene" style="max-width:100%; height:auto;">
-    <p>This photo captures the atmosphere of the Mission District, one of the areas with consistently high crime rankings over the years.</p>
   </div>
+  </section>
 
+
+  <section>
+  <h2>Heat map for crime rate within various San Francisco neighborhoods</h2>
+  <p>When looking through the crime heat map for these ten neighborhoods within SF their are various interesting things that jump out immediately, first of which is the progression and changes that have taken place within the neighborhood Southern. The amount of crime that occurs in that particular neighborhood skyrockets in 2013-2017, however after 2017 there is a very steep decline in crimes commited that occurs within this area. Also their is a quite noticable drop in crimes that occurs for Northern in 2010-2011, and a spike for the neighborhood Tenderloin which occurs during 2007-2009. </p>
   <div>
-    <h3>Police Presence in Tenderloin</h3>
+    <h3>San Francisco crime heatmap for the years 2004-2024</h3>
     <img src="images/crime_heatmap_2004_2024.png" alt="Police in Tenderloin" style="max-width:100%; height:auto;">
-    <p>The Tenderloin neighborhood has seen fluctuating crime ranks, and this image highlights law enforcement’s active presence.</p>
+    
   </div>
 </section>
 
+<section>
+
   <h2>Interactive Crime Plot</h2>
+
+  <p> Finally we want to be able to see more clearly how the neighborhoods rank compared to one another for the amount of crime that occurs through the years. We can create two groups for these nighborhoods and have it so that the higher group only contains neighborhoods that have at some point ranked in the top 5 for most crimes commited through the years, while the same can not be said for the lower group. The neighborhoods that belong to the higher group are: Bayview, Central, Mission, Northern, Southern, Tenderloin. The neighborhoods that belong to the lower group and would therefore be considered safer in comparision are: Ingleside, Park, Richmond, Taraval. Many noticable observation can be made when examing the higher group. For statrters, despite having a reputation for being a somewhat dangerous area, we can see that Tenderloin never ranks higher than fifth for most crimes and is actually ranked considerably low through most of 2004-2024. This ranking is obviously considering total crime that is commited within the area and the population for Tenderloin is only 25.067 (see source: https://en.wikipedia.org/wiki/Tenderloin,_San_Francisco) which is considerably lower when compared to for example Central SF. Further examination of the higher group also shows that Southern ranks the highest for most crimes committed through 2004-2017 but then drops quite noticably after that and never ranks higher then third after 2019. Around the same time that Southern starts to rank lower, both Northern and Central start to rank noticably higher, but those two are both in the top two places from crimes committed from 2018 onwards. When examining the lower group however we notice that there are only two neighborhoods who ate any point rank the lowest (Richmond and Park), but Taraval and Ingleside rank closer to the middle throughout most of the 2004-2024 period. </p>
+
+
 
   <!-- Bokeh plot container -->
   <div id="ee8fc1e5-92b1-4223-8499-2aa75580713d" data-root-id="p3452" style="display: contents;"></div>
@@ -82,4 +101,12 @@ title: "San Francisco Crime Magazine"
       else document.addEventListener("DOMContentLoaded", fn);
     })();
   </script>
+</section>
+
+<section>
+
+<h2> Contribution </h2>
+<p> Andrés: Github website setup, Most of the data interpretation, some coding for the final interactive plot</p>
+<p> Þorvaldur: Most of the work for the python coding for the plots, some data interpretation.</p>
+
 </section>
