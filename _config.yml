@@ -21,8 +21,15 @@
 title: Assignment 2
 email: s242978@dtu.dk
 description: >- # this means to ignore newlines until "baseurl:"
-  Here is a description for assignment number 2 regarding the awful crime 
-  that tends to take place in the city of san francisco
+  This particular assignment involves taking a deep dive into the crime scene within the various neighborhoods of San Francisco. A quick look 
+  through the dataset does portray very blatantly that the amount of crime has gone down considerably through the years (same can be said about
+  the entire United States as a whole), our aim is to look through the data for various neighborhoods of San  Francisco and see how successful they
+  have been in eliminating crime when compared to one another.
+
+  Group members: Andrés ísak Hlynsson (s242978), Þorvaldur Lúðvíksson (s)
+
+
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  Thorvaldur

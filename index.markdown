@@ -3,9 +3,8 @@ layout: default
 title: "San Francisco Crime Magazine"
 ---
 
-<h1>San Francisco Crime Magazine</h1>
-<p>Andrés Ísak Hlynsson (s242978) </p>
-<p>Þorvaldur Lúðvíksson (s------) </p>
+<h1>Assignment 2</h1>
+
 
 <section>
   <h2>Introduction to the dataset</h2>
@@ -17,11 +16,26 @@ title: "San Francisco Crime Magazine"
 <section>
   <h2>Research question</h2>
   <p>
-  Our area of interest for this assignment has to do with the location of where the crimes have taken place. More specifically we want to analyse whether or not the same neighborhoods have always dominated in the amount of crimes that are occuring or whether there is a shift that has taken place through the years.
+  Our area of interest for this assignment has to do with the location of where the crimes have taken place. More specifically we want to analyse whether or not the same neighborhoods have always dominated in the amount of crimes that are occuring or whether there is a shift that has taken place through the years. We therefore want to examine the crime rate for various neighborhoods  and see which neighborhoods have been more successful then others in eliminating crime, and perhaps dwelve deeper and try to understand the underlying causes for this.
   </p>
 </section>
 
 <section>
+  <h2>San Francisco Crime in Action</h2>
+
+  <div style="margin-bottom: 2em;">
+    <h3>Crime Scene in Mission District</h3>
+    <img src="images/crimes_per_district_by_year.png" alt="Mission District crime scene" style="max-width:100%; height:auto;">
+    <p>This photo captures the atmosphere of the Mission District, one of the areas with consistently high crime rankings over the years.</p>
+  </div>
+
+  <div>
+    <h3>Police Presence in Tenderloin</h3>
+    <img src="images/crime_heatmap_2004_2024.png" alt="Police in Tenderloin" style="max-width:100%; height:auto;">
+    <p>The Tenderloin neighborhood has seen fluctuating crime ranks, and this image highlights law enforcement’s active presence.</p>
+  </div>
+</section>
+
   <h2>Interactive Crime Plot</h2>
 
   <!-- Bokeh plot container -->
